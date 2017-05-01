@@ -163,60 +163,6 @@ module.exports = {
     "declaration-block-no-duplicate-properties": [true, { "severity": "error" }],
     // Disallow shorthand properties that override related longhand properties within declaration blocks.
     "declaration-block-no-shorthand-property-overrides": [true, { "severity": "error" }],
-    // Specify the order of properties within declaration blocks.
-    /* !!! DEPRECATED !!! */ "declaration-block-properties-order": [[
-      // Strong properties (for easy debugging)
-      {
-        order: 'strict',
-        properties: [
-          'content',
-          'pointer-events',
-          'z-index',
-          'order',
-        ],
-      },
-      // Position
-      'position',
-      // Position properties
-      {
-        order: 'flexible',
-        properties: [
-          'top',
-          'right',
-          'bottom',
-          'left',
-        ],
-      },
-      // Display
-      'display',
-      // Flexible layout properties
-      {
-        order: 'flexible',
-        properties: [
-          'align-content',
-          'align-items',
-          'align-self',
-          'flex',
-          'justify-content',
-        ],
-      },
-      // Basic box model properties
-      {
-        order: 'flexible',
-        properties: [
-          'width',
-          'max-width',
-          'min-width',
-          'height',
-          'max-height',
-          'min-height',
-          'margin',
-          'padding',
-        ],
-      },
-    ], {
-      "severity": "warning"
-    }],
     // Require a newline or disallow whitespace after the semicolons of declaration blocks.
     "declaration-block-semicolon-newline-after": ["always", { "severity": "warning" }],
     // Require a newline or disallow whitespace before the semicolons of declaration blocks.
@@ -398,6 +344,8 @@ module.exports = {
     "at-rule-no-vendor-prefix": [true, { "severity": "error" }],
     // Require a newline after the semicolon of at-rules.
     "at-rule-semicolon-newline-after": ["always", { "severity": "warning" }],
+    // Require a single space or disallow whitespace before the semicolons of at rules.
+    "at-rule-semicolon-space-before": ["never", { "severity": "warning" }],
     // Specify a whitelist of allowed at-rules.
     //"at-rule-whitelist": null,
 

@@ -1,0 +1,6 @@
+root = true
+
+[{package.json,.travis.yml,.babelrc,.eslintrc,.stylelintrc.js}]
+indent_style = space
+indent_size = 2
+insert_final_newline = false
