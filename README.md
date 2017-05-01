@@ -1,5 +1,5 @@
 # stylelint-config
-dreipol eslint config file
+dreipol stylelint config file
 
 ## Installation
 

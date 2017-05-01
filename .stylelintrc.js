@@ -381,7 +381,7 @@ module.exports = {
     //"at-rule-blacklist": null,
     // Require or disallow an empty line before at-rules.
     "at-rule-empty-line-before": ["always", {
-      "except": ["first-nested", "after-same-name"],
+      "except": ["first-nested"],
       "ignore": ["after-comment", "blockless-after-blockless"],
       "ignoreAtRules": ["else"],
       "severity": "error"
