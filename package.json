@@ -1,0 +1,20 @@
+{
+  "name": "@dreipol/stylelint-config",
+  "version": "1.0.0",
+  "description": "dreipol stylelint config file",
+  "main": ".stylelintrc",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "node -e \"require('./')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreipol/stylelint-config.git"
+  },
+  "author": "Dreipol <dev@dreipol.ch> (http://dreipol.ch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreipol/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/dreipol/stylelint-config#readme"
+}
