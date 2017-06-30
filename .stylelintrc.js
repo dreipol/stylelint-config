@@ -367,7 +367,10 @@ module.exports = {
     // Limit the length of a line.
     //"max-line-length": null,
     // Limit the depth of nesting.
-    "max-nesting-depth": [5, { "severity": "error" }],
+    "max-nesting-depth": [5, {
+      "ignore": ["blockless-at-rules"],
+      "severity": "error"
+    }],
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
     // "no-descending-specifity": null,
     // Disallow duplicate selectors.
