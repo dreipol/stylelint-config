@@ -7,7 +7,7 @@ module.exports = {
     "at-rule-empty-line-before": ["always", {
       "except": ["first-nested"],
       "ignore": ["after-comment", "blockless-after-blockless"],
-      "ignoreAtRules": ["else", "content"],
+      "ignoreAtRules": ["content", "else", "return"],
       "severity": "error"
     }],
 
