@@ -104,7 +104,7 @@ module.exports = {
     // Specify pattern of custom properties.
     //"custom-property-pattern": null,
 
-// Require a single space or disallow whitespace after the bang of declarations.
+    // Require a single space or disallow whitespace after the bang of declarations.
     "declaration-bang-space-after": ["never", { "severity": "warning" }],
 
     // Require a single space or disallow whitespace before the bang of declarations.
@@ -224,7 +224,7 @@ module.exports = {
     // Require a single space or disallow whitespace after functions.
     "function-whitespace-after": ["always", { "severity": "warning" }],
 
-// Specify indentation.
+    // Specify indentation.
     "indentation": [4, { "severity": "error" }],
 
     // Disallow `!important` within keyframe declarations.
