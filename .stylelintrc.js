@@ -167,6 +167,9 @@ module.exports = {
     // Disallow duplicate font family names.
     "font-family-no-duplicate-names": [true, { "severity": "warning" }],
 
+    // Disallow missing generic families in lists of font family names.
+    "font-family-no-missing-generic-family-keyword": [true, { "severity": "warning" }],
+
     // Require consistent numeric or named font-weight values.
     "font-weight-notation": ["numeric", { "severity": "warning" }],
 
@@ -293,6 +296,9 @@ module.exports = {
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
     //"no-descending-specifity": null,
 
+    // Disallow duplicate `@import` rules within a stylesheet.
+    "no-duplicate-at-import-rules": [true, { "severity": "error" }],
+
     // Disallow duplicate selectors.
     //"no-duplicate-selectors": null,
 
@@ -366,11 +372,17 @@ module.exports = {
     // Specify a pattern for class selectors.
     //"selector-class-pattern": null,
 
+    // Specify a blacklist of disallowed combinators.
+    // "selector-combinator-blacklist": null,
+
     // Require a single space or disallow whitespace after the combinators of selectors.
     "selector-combinator-space-after": ["always", { "severity": "warning" }],
 
     // Require a single space or disallow whitespace before the combinators of selectors.
     "selector-combinator-space-before": ["always", { "severity": "warning" }],
+
+    // Specify a whitelist of allowed combinators.
+    // "selector-combinator-whitelist": null,
 
     // Disallow non-space characters for descendant combinators of selectors.
     "selector-descendant-combinator-no-non-space": [true, { "severty": "warning" }],
@@ -408,6 +420,9 @@ module.exports = {
     // Limit the number of id selectors in a selector.
     "selector-max-id": [0, { "severity": "warning" }],
 
+    // Limit the number of pseudo-classes in a selector.
+    // "selector-max-pseudo-class": null,
+
     // Limit the specificity of selectors.
     "selector-max-specificity": ["1,4,2", { "severity": "error" }], /* https://specificity.keegan.st/ */
 
@@ -444,6 +459,9 @@ module.exports = {
     // Specify a whitelist of allowed pseudo-class selectors.
     //"selector-pseudo-class-whitelist": null,
 
+    // Specify a blacklist of disallowed pseudo-element selectors.
+    // "selector-pseudo-element-blacklist": null,
+
     // Specify lowercase or uppercase for pseudo-element selectors.
     "selector-pseudo-element-case": ["lower", { "severity": "error" }],
 
@@ -452,6 +470,9 @@ module.exports = {
 
     // Disallow unknown pseudo-element selectors.
     "selector-pseudo-element-no-unknown": [true, { "severity": "error" }],
+
+    // Specify a whitelist of allowed pseudo-element selectors.
+    // "selector-pseudo-element-whitelist": null,
 
     // Specify lowercase or uppercase for type selector.
     "selector-type-case": ["lower", { "severity": "error" }],
