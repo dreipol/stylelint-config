@@ -233,6 +233,9 @@ module.exports = {
     // Disallow `!important` within keyframe declarations.
     //"keyframe-declaration-no-important": null,
 
+    // Specify a pattern for keyframe names.
+    //"keyframes-name-pattern": null,
+
     // Disallow units for zero lengths.
     "length-zero-no-unit": [true, { "severity": "warning" }],
 
@@ -268,6 +271,9 @@ module.exports = {
 
     // Disallow vendor prefixes for media feature names.
     "media-feature-name-no-vendor-prefix": [true, { "severity": "error" }],
+
+    // Specify a whitelist of allowed media feature name and value pairs.
+    //"media-feature-name-value-whitelist": null,
 
     // Specify a whitelist of allowed media feature names.
     //"media-feature-name-whitelist": null,
