@@ -240,7 +240,7 @@ module.exports = {
     "length-zero-no-unit": [true, { "severity": "warning" }],
 
     // Specify unix or windows linebreaks.
-    "linebreaks": ["unix", { "severity": "warn" }],
+    "linebreaks": ["unix", { "severity": "warning" }],
 
     // Limit the number of adjacent empty lines.
     "max-empty-lines": [2, {
