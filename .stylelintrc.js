@@ -239,6 +239,9 @@ module.exports = {
     // Disallow units for zero lengths.
     "length-zero-no-unit": [true, { "severity": "warning" }],
 
+    // Specify unix or windows linebreaks.
+    "linebreaks": ["unix", { "severity": "warn" }],
+
     // Limit the number of adjacent empty lines.
     "max-empty-lines": [2, {
       "ignore": ["comments"],
@@ -307,6 +310,9 @@ module.exports = {
 
     // Disallow duplicate selectors.
     //"no-duplicate-selectors": null,
+
+    // Disallow empty first lines.
+    "no-empty-first-line": [true, { "severity": "warning" }],
 
     // Disallow empty sources.
     "no-empty-source": [true, { "severity": "error" }],
