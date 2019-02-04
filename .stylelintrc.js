@@ -176,6 +176,9 @@ module.exports = {
     // Specify a blacklist of disallowed functions.
     //"function-blacklist": null,
 
+    // Disallow an invalid expression within calc functions.
+    "function-calc-no-invalid": [true, { "severity": "error" }],
+
     // Disallow an unspaced operator within calc functions.
     "function-calc-no-unspaced-operator": [true, { "severity": "warning" }],
 
