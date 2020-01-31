@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/dreipol/stylelint-config#readme",
   "peerDependencies": {
-    "stylelint": "^9.10.1"
+    "stylelint": "^13.0.0"
   }
 }
