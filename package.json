@@ -1,6 +1,6 @@
 {
   "name": "@dreipol/stylelint-config",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "dreipol stylelint config file",
   "main": ".stylelintrc",
   "scripts": {
