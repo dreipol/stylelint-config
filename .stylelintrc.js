@@ -1,7 +1,7 @@
 module.exports = {
   "rules": {
-    // Specify a blacklist of disallowed at-rules.
-    //"at-rule-blacklist": null,
+    // Specify a list of disallowed at-rules.
+    //"at-rule-disallowd-list": null,
 
     // Require or disallow an empty line before at-rules.
     "at-rule-empty-line-before": ["always", {
@@ -92,8 +92,8 @@ module.exports = {
     // Require a single space or disallow whitespace on the inside of comment markers.
     "comment-whitespace-inside": ["always", { "severity": "warning" }],
 
-    // Specify a blacklist of disallowed words within comments.
-    //"comment-word-blacklist": null,
+    // Specify a list of disallowed words within comments.
+    //"comment-word-disallowd-list": null,
 
     // Specify pattern of custom media query names.
     //"custom-media-pattern": null,
@@ -149,14 +149,14 @@ module.exports = {
     // Disallow !important within declarations.
     "declaration-no-important": [true, { "severity": "warning" }],
 
-    // Specify a blacklist of disallowed units for specfic properties.
-    //"declaration-property-unit-blacklist": null,
+    // Specify a list of disallowed units for specfic properties.
+    //"declaration-property-unit-disallowd-list": null,
 
     // Specify a whitelist of disallowed units for specfic properties.
     //"declaration-property-unit-whitelist": null,
 
-    // Specify a blacklist of disallowed property-value pairs.
-    //"declaration-property-value-blacklist": null,
+    // Specify a list of disallowed property-value pairs.
+    //"declaration-property-value-disallowd-list": null,
 
     // Specify a whitelist of allowed property-value pairs.
     //"declaration-property-value-whitelist": null,
@@ -173,8 +173,8 @@ module.exports = {
     // Require consistent numeric or named font-weight values.
     "font-weight-notation": ["numeric", { "severity": "warning" }],
 
-    // Specify a blacklist of disallowed functions.
-    //"function-blacklist": null,
+    // Specify a list of disallowed functions.
+    //"function-disallowd-list": null,
 
     // Disallow an invalid expression within calc functions.
     "function-calc-no-invalid": [true, { "severity": "error" }],
@@ -215,8 +215,8 @@ module.exports = {
     // Disallow scheme-relative urls.
     //"function-url-no-scheme-relative": null,
 
-    // Specify a blacklist of disallowed url schemes.
-    //"function-url-scheme-blacklist": null,
+    // Specify a list of disallowed url schemes.
+    //"function-url-scheme-disallowd-list": null,
 
     // Specify a whitelist of disallowed url schemes.
     //"function-url-scheme-whitelist": null,
@@ -266,8 +266,8 @@ module.exports = {
     // Require a single space or disallow whitespace before the colon in media features.
     "media-feature-colon-space-before": ["never", { "severity": "warning" }],
 
-    // Specify a blacklist of disallowed media feature names.
-    //"media-feature-name-blacklist": null,
+    // Specify a list of disallowed media feature names.
+    //"media-feature-name-disallowd-list": null,
 
     // Specify lowercase or uppercase for media feature names.
     "media-feature-name-case": ["lower", { "severity": "warning" }],
@@ -344,8 +344,8 @@ module.exports = {
     // Disallow trailing zeros within numbers.
     //"number-no-trailing-zeros": null,
 
-    // Specify a blacklist of disallowed properties.
-    //"property-blacklist": null,
+    // Specify a list of disallowed properties.
+    //"property-disallowd-list": null,
 
     // Specify lowercase or uppercase for properties.
     "property-case": ["lower", { "severity": "error" }],
@@ -369,8 +369,8 @@ module.exports = {
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
     "selector-attribute-brackets-space-inside": ["never", { "severity": "warning" }],
 
-    // Specify a blacklist of disallowed attribute operators.
-    //"selector-attribute-operator-blacklist": null,
+    // Specify a list of disallowed attribute operators.
+    //"selector-attribute-operator-disallowd-list": null,
 
     // Require a single space or disallow whitespace after operators within attribute selectors.
     "selector-attribute-operator-space-after": "never",
@@ -387,8 +387,8 @@ module.exports = {
     // Specify a pattern for class selectors.
     //"selector-class-pattern": null,
 
-    // Specify a blacklist of disallowed combinators.
-    // "selector-combinator-blacklist": null,
+    // Specify a list of disallowed combinators.
+    // "selector-combinator-disallowd-list": null,
 
     // Require a single space or disallow whitespace after the combinators of selectors.
     "selector-combinator-space-after": ["always", { "severity": "warning" }],
@@ -459,8 +459,8 @@ module.exports = {
     // Disallow vendor prefixes for selectors.
     "selector-no-vendor-prefix": [true, { "severity": "error" }],
 
-    // Specify a blacklist of disallowed pseudo-class selectors.
-    //"selector-pseudo-class-blacklist": null,
+    // Specify a list of disallowed pseudo-class selectors.
+    //"selector-pseudo-class-disallowd-list": null,
 
     // Specify lowercase or uppercase for pseudo-class selectors.
     "selector-pseudo-class-case": ["lower", { "severity": "error" }],
@@ -474,8 +474,8 @@ module.exports = {
     // Specify a whitelist of allowed pseudo-class selectors.
     //"selector-pseudo-class-whitelist": null,
 
-    // Specify a blacklist of disallowed pseudo-element selectors.
-    // "selector-pseudo-element-blacklist": null,
+    // Specify a list of disallowed pseudo-element selectors.
+    // "selector-pseudo-element-disallowd-list": null,
 
     // Specify lowercase or uppercase for pseudo-element selectors.
     "selector-pseudo-element-case": ["lower", { "severity": "error" }],
@@ -507,8 +507,8 @@ module.exports = {
     // Disallow animation and transition times under 100ms.
     //"time-min-milliseconds": null,
 
-    // Specify a blacklist of disallowed units.
-    "unit-blacklist": [["s", "in", "pt", "pc", "mm", "cm", "ch", "ex"], { "severity": "error" }],
+    // Specify a list of disallowed units.
+    "unit-disallowed-list": [["s", "in", "pt", "pc", "mm", "cm", "ch", "ex"], { "severity": "error" }],
 
     // Specify lowercase or uppercase for units.
     "unit-case": ["lower", { "severity": "error" }],
